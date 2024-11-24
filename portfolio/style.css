@@ -1,0 +1,146 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fa6240;
+  }
+  .header {
+    background-image: url(images/5675692.jpg);
+    color: white;
+    text-align: center;
+    padding: 60px 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .header h1 {
+    font-size: 3rem;
+  }
+  .header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .about {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  .about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+  }
+  .profile-img {
+    
+    width: 290px;
+    height: 290px;
+    object-fit: cover;
+  }
+  .bio {
+    max-width: 600px;
+  }
+  .bio h2 {
+    font-size: 2rem;
+    color: #ff5733;
+    margin-bottom: 20px;
+  }
+  .bio p {
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  .skills {
+    background-color: #fa6240;
+    padding: 60px 0;
+  }
+  .skill-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  .skill-card {
+    background-color: #fff;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    width: 150px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  .skill-card:hover {
+    transform: scale(1.1);
+  }
+
+  .projects {
+    background-color: #fff;
+    padding: 60px 0;
+  }
+  .project-card {
+    background-color: #f8f9fa;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  .project-card h3 {
+    color: #fa6240;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  .project-card p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  .contact {
+    background-color: #ffe3d8;
+    padding: 60px 0;
+  }
+  .contact-info ul {
+    font-size: 1.2rem;
+  }
+  .contact-info li {
+    margin-bottom: 15px;
+  }
+  
+  .footer {
+    background-image: url(images/5675692.jpg);
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 50px;
+  }
+  .footer p {
+    font-size: 1rem;
+  }
+  
